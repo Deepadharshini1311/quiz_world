@@ -1,0 +1,91 @@
+*{
+    margin: 10px;
+    padding: 5px;
+    box-sizing:border-box
+
+}
+.container{
+    max-width:40%;
+    padding:10px;
+    margin:auto;
+    border-radius:20px;
+    border: 2px solid yellowgreen;
+}
+    
+.container h1{
+    text-align:center;
+    color:blue;
+}
+.form-group{
+    font-size:x-large;
+    font-weight:400;
+    color:white;
+}   
+
+.btn{
+    width:50%;
+    border-radius:25px;
+    font-size:medium;
+    margin: 5px;
+    background-color:blue;
+    color:whitesmoke;
+    height:50px;
+    font-weight:bold;
+}
+input{
+    width: 100%;
+    border-radius: 5px;
+}
+input,select{
+    width: 100%;
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    flex-direction: column;
+}
+
+.head {
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.login-container {
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
